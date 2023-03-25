@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://i.pinimg.com/564x/8d/68/9c/8d689ceb96b5bd2d94f94796e1472ac5.jpg);
+    background-size: cover;
+}
+.calculator{
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px lightgrey;
+    color: #000000;
+    cursor: pointer;
+    border: 5px solid #000000;
+
+}
+
+#btn{
+    background-color: #0000ff;
+    color: #ffffff;
+    width: 125px;
+    height: 125px;
+    font-size: larger;
+
+
+}
+#result{
+    width: 375px;
+    height: 125px;
+    font-size: larger;
+
+}
+#button:hover{
+    background-color: #000000;
+    color: darkolivegreen;
+    transform: translateY(-10px);
+}
+#button{
+   width: 125px;
+    height: 125px;
+    font-size: larger;
+
+}
