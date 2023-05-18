@@ -10,7 +10,9 @@ function clearScreen() {
      
     // This function evaluates the expression and returns result
     function calculate() {
-        var p = document.getElementById("result").value;
-        var q = eval(p);
+        const p = document.getElementById("result").value;
+        let q = eval(p);
         document.getElementById("result").value = q;
-    }
+
+    console.log(p , calculate())
+    } 
