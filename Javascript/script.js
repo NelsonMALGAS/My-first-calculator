@@ -14,5 +14,5 @@ function clearScreen() {
         let q = eval(p);
         document.getElementById("result").value = q;
 
-    console.log(p , calculate())
+    
     } 
